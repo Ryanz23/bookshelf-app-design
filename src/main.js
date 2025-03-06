@@ -85,11 +85,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const editBookYear = document.getElementById("editBookYear");
     const editBookIsComplete = document.getElementById("editBookIsComplete");
 
-    if (!editBookForm || !editBookModal) {
-      console.error("Edit form or modal not found!");
-      return;
-    }
-
     editBookTitle.value = book.title;
     editBookAuthor.value = book.author;
     editBookYear.value = book.year;
